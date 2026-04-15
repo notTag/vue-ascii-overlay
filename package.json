@@ -49,6 +49,6 @@
   "author": "Nick Tagliasacchi",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/notTag/vue-ascii-overlay.git"
   }
 }

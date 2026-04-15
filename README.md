@@ -40,7 +40,7 @@ All props are optional — the component works with zero configuration.
 | `invertLuma` | `boolean` | `false` | Invert the brightness mapping |
 | `lumaValue` | `number` | `0` | Base luma value (0–1) |
 | `lumaSmoothingMs` | `number` | `0` | Smoothing time for luma transitions in milliseconds |
-| `backgroundColor` | `string` | `'#000000'` | Background color (CSS color string) |
+| `backgroundColor` | `string` | `'transparent'` | Background color (CSS color string) |
 | `color` | `string` | `'#ffffff'` | Character color (CSS color string) |
 | `fontFamily` | `string` | `'monospace'` | Font family for rendered characters |
 | `fluid` | `AsciiOverlayFluidConfig` | See below | Fluid simulation configuration |

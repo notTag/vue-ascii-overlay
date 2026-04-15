@@ -517,7 +517,7 @@ const props = withDefaults(defineProps<AsciiOverlayProps>(), {
   invertLuma: true,
   lumaValue: 0.7,
   lumaSmoothingMs: 0,
-  backgroundColor: '#000000',
+  backgroundColor: 'transparent',
   color: '#ffffff',
   fontFamily: "'Courier New', Courier, monospace",
   fluid: () => ({}),
@@ -1114,10 +1114,13 @@ onUnmounted(() => {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  pointer-events: none;
+  transition: none;
 }
 .ascii-overlay__canvas {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  transition: none;
 }
 </style>
