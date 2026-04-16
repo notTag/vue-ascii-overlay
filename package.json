@@ -1,6 +1,6 @@
 {
   "name": "vue-ascii-overlay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue 3 component that renders an interactive ASCII character overlay with mouse-driven Navier-Stokes fluid simulation.",
   "type": "module",
   "files": [
