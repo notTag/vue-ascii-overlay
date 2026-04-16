@@ -1,5 +1,7 @@
 # vue-ascii-overlay
 
+[![npm](https://img.shields.io/npm/v/vue-ascii-overlay)](https://www.npmjs.com/package/vue-ascii-overlay)
+
 A Vue 3 component that renders an interactive ASCII character grid with mouse-driven Navier-Stokes fluid simulation. Hover, click, and drag to disturb the fluid field — characters shift in brightness to visualize the flow.
 
 ## Install
